@@ -1,0 +1,135 @@
+
+#header{
+    color: white;
+    background-color: #e74c3c;
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    color: #ffffff;
+    padding:15px 10px;
+    display: block;
+    text-decoration: none;
+}
+#menu li a:hover{
+    background: #c0392b;
+}
+.lead{
+    padding-left: 10px;
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+
+#banner{
+  background: url("../images/hader.jpg") no-repeat 0 0;
+  background-size: cover;
+}
+.banner-title {
+    padding-top: 5rem;
+}
+.banner-title h1{
+    background: rgba(255,255,255,0.7);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+.banner-title p.lead{
+    color: #ffffff;
+    background: rgba(240, 60, 16, 0.8);
+}
+.service-box{
+    text-align: center;
+}
+.fab{
+color: #e74c3c;
+font-size: 70px;
+margin-bottom: 15px;
+}
+.section{
+   padding-top: 70px;
+   padding-bottom: 70px;
+}
+.section h2.section-head{
+ 
+   text-align: center;
+   margin-bottom: 40px;
+}
+.section h2.section-head::after{
+ background: #e74c3c;
+ content: "";
+ display: block;
+ width: 100px;
+ height: 3px;
+ margin: 20px auto;   
+}
+#testimonials{
+    background: url(../images/testmonail.jpg) no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0;
+    color: #ffffff;
+    position: relative;
+}
+#testimonials::before{
+    background: rgba(52, 73, 94, 0.4);
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.news-post img{
+    width: 100%;
+    margin-bottom:10px ;
+}
+.news-post h3{
+    font-size: 1.35rem;
+}
+.news-post h3 a{
+    color: #e74c3c;
+    text-decoration: none;
+}
+.post-data{
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+.readmore{
+    text-decoration: none;
+}
+#footer-sidebar{
+    color: #ffffff;
+    background: #34495e;
+    padding: 20px 0;
+}
+.footer-widget h4::after{
+    content: "";
+    background: #ffffff;
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 5px 0;
+
+}
+.footer-widget a{
+    color: #ffffff;
+}
+.latest-news{
+    list-style: none;
+    padding:0;
+    margin:0;
+
+}
+.latest-news li{
+margin-bottom: 3px;
+}
+
+.latest-news a{
+    text-decoration: none;
+}
